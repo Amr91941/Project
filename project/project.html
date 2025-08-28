@@ -1,29 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang = "en">
 
     <head>
-        <meta charset="UTF-8">
-        <title>Our Project</title>
+        <meta charset = "UTF-8">
+        <title>Engineer Amr Abdullah</title>
+        <meta name = "description" content = "Engineer Amr Abdullah Portfolio">
+        <link rel = "stylesheet" href = "css/project.css">
     </head>
-    
+
     <body>
-        <table>
-            <caption><h2>Project details</h2></caption>
-            <thead>
-                <tr>
-                    <td>Project name</td>
-                    <td>description</td>
-                    <td>Github</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Destroying your life</td>
-                    <td>We will kill you in 1 month maximum</td>
-                    <td><a href="https://github.com/Amr91941/Profile-of-me/blob/main/index.html">Amr91941</a></td>
-                </tr>
-            </tbody>
-        </table>
+        <header>
+            <h1>Welcome to my Portfolio</h1>
+            <h2>The place you can know everything you need about me..</h2>
+            <h2 class = "a">صلي على النبي</h2>
+            <section class = "media">
+                <img src = "Media/FB_IMG_1731020137345.jpg" alt = "My Image">
+            </section>
+        </header>
+
+        <hr>
+
+        <section class = "P-I">
+            <h2>My Personal Information:</h2>
+            <ul>
+                <li>My name is "Amr Abdullah Abdeltawab Abdullah"</li>
+                <li>My age is "21"</li>
+                <li>I live in Minya - Egypt with my family</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section class = "E-S">
+            <h2>My Educational Status:</h2>
+            <ul>
+                <li>I am a studying in Faculty of Computer Science - Minya University</li>
+                <li>I am studying "Artificial Intelligence"</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section class = "S-K">
+            <h2>My Skills:</h2>
+            <ul>
+                <li>I have a good experience in programming languages like "Python, C++, Java, HTML, CSS"</li>
+                <li>I have a good experience in OOP in C++ and Python</li>
+                <li>I am in developing my skills in Full-Stack track</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section class = "form">
+            <h2>If you want to contact me "which is makes me happy" fill this form..</h2>
+            <form method = "get">
+                <label for = "name">Fullname</label>
+                <input type = "text" name = "name" id = "name" placeholder = "Enter your fullname" required>
+                <br><br>
+                <label for = "nick">Nickname</label>
+                <input type = "text" name = "nick" id = "nick" placeholder = "What can i call you">
+                <br><br>
+                Gender
+                <select name = "gender" id = "gender">
+                    <option value = "">--Please choose an option--</option>
+                    <option value = "male">Male</option>
+                    <option value = "female">Female</option>
+                </select>
+                <br><br>
+                <label for = "email">Email</label>
+                <input type = "email" name = "email" id = "email" placeholder = "Let me send you my reply" required>
+                <br><br>
+                <label for = "mobile">Phone Number</label>
+                <input type = "tel" name = "mobile" id = "mobile" placeholder = "Let me contact you" required>
+                <br><br>
+                <label for = "job">Your asked job</label>
+                <textarea name = "job" id = "job"></textarea>
+                <br><br>
+                <button type = "submit">Send</button>
+                <button type = "reset">Reset</button>
+            </form>
+           
+        </section>
+
+
     </body>
+    
 </html>

@@ -1,0 +1,69 @@
+header{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.media img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.P-I,
+.E-S,
+.S-K,
+.form
+{
+    background-color: lightblue;
+    padding: 10px;
+    border: 3px solid black;
+    font-size: x-large;
+}
+
+dl{
+    font-size: 20px;
+}
+
+label{
+    font-size: 25px;
+    padding-right: 5px;
+}
+
+.form input{
+    width: 600px;
+    height: 40px;
+}
+
+.form input:hover{
+    font-size: large;
+}
+
+textarea{
+    width: 600px;
+    height: 200px;
+    font-size: large;
+}
+
+textarea:hover{
+    font-size: large;    
+}
+
+select{
+    width: 250px;
+    height: 30px;
+    font-size: medium;
+}
+
+li{
+    font-size: 20px;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    margin-right: 10px;
+}
